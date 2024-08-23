@@ -15,9 +15,6 @@ Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 
 
 ## Device Support
 
-> [!NOTE]  
-> Apple TV & iBridge support are not currently in the beta releases of palera1n, ETA s0n
-
 <!--- Mobile --->
 
 | iPhone(s)                 | iPad(s)                        		| iPod(s)   					| Apple TV(s) 					|
@@ -115,7 +112,7 @@ Visit https://palera.in
 
 ## Disclaimers
 We are **NOT** responsible for any data loss, or the result of a device being bricked. When using palera1n, the user should accept responsibility if anything happens to their device during the process.
-- If your device is stuck in recovery, please run futurerestore `--exit-recovery`, or use `irecovery -n`.
+- If your device is stuck in recovery, please run futurerestore `--exit-recovery`, or use `irecovery -n`, or `palera1n -n`.
 - If you're unable to get out of recovery via these methods please restore with iTunes or Finder.
 - palera1n **will not work** in VirtualBox, VMware or any virtual machine that doesn't support PCI passthrough.
 
