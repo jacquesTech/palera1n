@@ -78,7 +78,7 @@ static int usage(int e, char* prog_name)
 #endif
 			"] [-e boot arguments] [-k Pongo image] [-o overlay file] [-r ramdisk file] [-K KPF file] [-i checkra1n file]\n"
 			"Copyright (C) 2024, palera1n team, All Rights Reserved.\n\n"
-			"iOS/iPadOS/tvOS 15.0-18.0, bridgeOS 5.0-9.0 arm64 jailbreaking tool\n\n"
+			"iOS/iPadOS/tvOS 15.0-18.1, bridgeOS 5.0-9.1 arm64 jailbreaking tool\n\n"
 			"\t--version\t\t\t\tPrint version\n"
 			"\t--force-revert\t\t\t\tRemove jailbreak\n"
 #ifdef DEV_BUILD
@@ -348,10 +348,8 @@ int optparse(int argc, char* argv[]) {
 		printf(
 			"palera1n " PALERAIN_VERSION "\n"
 			BUILD_COMMIT " " BUILD_NUMBER " (" BUILD_BRANCH ")\n\n"
-			"Build date: " BUILD_DATE "\n"
 			"Build style: " BUILD_STYLE "\n"
 			"Build tag: " BUILD_TAG "\n"
-			"Built by: " BUILD_WHOAMI "\n"
 #ifdef USE_LIBUSB
 			"USB backend: libusb\n"
 #else
